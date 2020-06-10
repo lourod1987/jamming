@@ -24,7 +24,7 @@ class Track extends React.Component {
         </div>
         <button className="Track-action"><!-- + or - will go here --></button>
       </div>
-    )
+    );
   }
 }
 
