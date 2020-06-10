@@ -17,9 +17,12 @@ class App extends React.Component {
       ],
       playlistName: 'Lou Jams',
       playlistTracks:  [
-        { id: 0, name: 'still feel', artist: 'half alive', album: 'something' },
-        { id: 1, name: 'getaway car', artist: 'Audioslave', album: 'Audioslave' },
-        { id: 2, name: 'ordinary people', artist: 'John Legend', album: 'Living' },
+        { id: 0, name: 'Doses & Mimosas', artist: 'dont know', album: 'no name' },
+        { id: 1, name: 'Tiger', artist: 'Honeyclaws', album: 'Honeyclaws' },
+        { id: 2, name: 'Volcano', artist: 'Woodkid', album: 'Live Performance' },
+        { id: 3, name: 'Example', artist: 'Test', album: 'Rich' },
+        { id: 4, name: 'Volcano', artist: 'Woodkid', album: 'Live Performance' },
+        { id: 5, name: 'Volcano', artist: 'Woodkid', album: 'Live Performance' },
       ]
     }
   }
