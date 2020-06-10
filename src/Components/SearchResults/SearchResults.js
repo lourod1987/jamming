@@ -9,7 +9,7 @@ class SearchResults extends React.Component {
 				<h2>Results</h2>
 				<TrackList />
 			</div>
-		)
+		);
 	}
 }
 
