@@ -14,4 +14,4 @@ class Playlist extends React.Component {
   }
 }
 
-export default TrackList;
+export default Playlist;
