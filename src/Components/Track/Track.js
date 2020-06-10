@@ -7,7 +7,7 @@ class Track extends React.Component {
     this.renderAction = this.renderAction.bind(this);
   }
 
-  renderAction() {
+  renderAction(isRemoval) {
     if (isRemoval) {
       return <button className="Track-action">-</button>;
     } else {
@@ -16,14 +16,14 @@ class Track extends React.Component {
   }
 
   render() {
-    const { track } = this.props;
+    const { name, artist, album } = this.props;
     return (
       <div className="Track">
         <div className="Track-information">
-          <h3>{track.name}</h3>
-          <p>{track.artist} | {track.album}</p>
+          <h3>{name}</h3>
+          <p>{artist} | {album}</p>
         </div>
-        <button className="Track-action"><!-- + or - will go here --></button>
+        <button className="Track-action"></button>
       </div>
     );
   }
