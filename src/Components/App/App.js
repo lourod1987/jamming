@@ -11,13 +11,13 @@ class App extends React.Component {
 
     this.state = {
       searchResults: [
-        { name: 'still feel', artist: 'half alive', album: 'something' },
-        { name: 'getaway car', artist: 'Audioslave', album: 'Audioslave' },
-        { name: 'ordinary people', artist: 'John Legend', album: 'Living' },
+        { id: 0, name: 'still feel', artist: 'half alive', album: 'something' },
+        { id: 1, name: 'getaway car', artist: 'Audioslave', album: 'Audioslave' },
+        { id: 2, name: 'ordinary people', artist: 'John Legend', album: 'Living' },
       ],
     }
   }
-  
+
   render() {
     return (
       <div>
