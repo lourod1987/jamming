@@ -11,9 +11,9 @@ class App extends React.Component {
 
     this.state = {
       searchResults: [
-        { id: 0, name: 'still feel', artist: 'half alive', album: 'something' },
-        { id: 1, name: 'getaway car', artist: 'Audioslave', album: 'Audioslave' },
-        { id: 2, name: 'ordinary people', artist: 'John Legend', album: 'Living' },
+        { id: 5, name: 'still feel', artist: 'half alive', album: 'something' },
+        { id: 6, name: 'getaway car', artist: 'Audioslave', album: 'Audioslave' },
+        { id: 7, name: 'ordinary people', artist: 'John Legend', album: 'Living' },
       ],
       playlistName: 'Lou Jams',
       playlistTracks:  [
@@ -22,7 +22,6 @@ class App extends React.Component {
         { id: 2, name: 'Volcano', artist: 'Woodkid', album: 'Live Performance' },
         { id: 3, name: 'Example', artist: 'Test', album: 'Rich' },
         { id: 4, name: 'Volcano', artist: 'Woodkid', album: 'Live Performance' },
-        { id: 5, name: 'Volcano', artist: 'Woodkid', album: 'Live Performance' },
       ]
     }
 
@@ -34,8 +33,10 @@ class App extends React.Component {
      return;
    }
 
+   this.state.playlistTracks.push(track)
+
    this.setState({
-     playlistTracks: [...track]
+    playlistTracks: this.state.playlistTracks
    });
   }
 
