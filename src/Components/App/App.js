@@ -33,8 +33,8 @@ class App extends React.Component {
    if (this.state.playlistTracks.find(savedTrack => savedTrack.id === track.id)) {
      return;
    }
-   
-  const result = [...this.state.playlistTracks, track]
+
+  const result = [...this.state.playlistTracks, track];
 
    this.setState({
     playlistTracks: result
